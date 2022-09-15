@@ -1,0 +1,51 @@
+.content {
+    display: flex;
+    padding: 3rem;
+    min-height: 30rem;
+    height: fit-content;
+    background-color: $background-color;
+    & .button-side{
+        width:20rem;
+        padding: 1rem;
+        button{
+            width: 15rem;
+            height: 40px;
+            border-radius: 6px;
+            color: white;
+            background-color: #00ADB5;
+            font-size: 20px;
+            border: none;
+            margin-bottom: 1.5rem;
+        }
+        hr.divider {
+            border: 0.5px solid $theme-color;
+            background-color: $theme-color;
+          }
+        p{
+            color: #00ADB5;
+            font-size: 20px;
+            border: none;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+    }
+    & .content-table{
+        background-color: white;
+        width: 100%;
+        border-radius: 1rem;
+        padding: 2rem;
+        th{
+            padding: 0rem 4rem 0rem 8rem;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        hr.divider{
+            width: 100%;
+        }
+        tr.table-headers{
+            color: $text-color;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}

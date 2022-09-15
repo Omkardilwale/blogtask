@@ -1,0 +1,46 @@
+.Blog-form{
+    background-color: white;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 2rem;
+    & .div-1 ,.div-2,.div-3,.div-4,.div-5{
+        display: flex;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+        input{
+            height: 30px;
+            width: 20rem;
+            margin-left: 2rem;
+            height: 30px;
+            width: 20rem;
+            margin-left: 2rem;
+            border-radius: 8px;
+            border: 1px solid darkgrey;
+        }
+    }
+    & .para{
+        padding-right: 30rem;
+        padding-bottom: 10rem;
+    }
+    label{
+        font-size: 24px;
+        font-weight: 400;
+        color: #505050;
+        width: 10rem;
+    }
+    button{
+        width: 15rem;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+        background-color: #00ADB5;
+        font-size: 20px;
+        border: none;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+    }
+    button.submit{
+        margin-left: 12rem;
+    }
+}
